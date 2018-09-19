@@ -1,12 +1,15 @@
-<h2>wave music guide</h2>
+<h1 class="text-center">wave music guide</h1>
+<div class="container">
+  <div class="row">
+    <div class="column">
 <ul class="producers">
   <li *ngFor="let producer of producers"
     [class.selected]="producer === selectedProducer"
     (click)="onSelect(producer)">
-   {{producer.name}}
+   {{producer.name}} <img class="producer-image" src={{producer.imageUrl}}/>
   </li>
 </ul>
- 
+</div>
 <div *ngIf="selectedProducer">
  
   <h2>{{selectedProducer.name | uppercase}} Details</h2>
@@ -17,4 +20,6 @@
     </label>
   </div>
  
+</div>
+</div>
 </div>
