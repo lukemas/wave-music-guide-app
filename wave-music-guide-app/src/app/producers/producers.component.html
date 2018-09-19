@@ -1,17 +1,15 @@
 <h1 class="text-center">wave music guide</h1>
 <div class="container">
-  <div class="row">
-    <div class="column">
+  <div class="col">
 <ul class="producers">
   <li *ngFor="let producer of producers"
     [class.selected]="producer === selectedProducer"
     (click)="onSelect(producer)">
-   {{producer.name}} <img class="producer-image" src={{producer.imageUrl}}/>
+  <img class="producer-image" src={{producer.imageUrl}}/><caption class="text-center producer-name">{{producer.name}} </caption>
   </li>
 </ul>
 </div>
 <div *ngIf="selectedProducer">
- 
   <h2>{{selectedProducer.name | uppercase}} Details</h2>
   <div><span>id: </span>{{selectedProducer.id}}</div>
   <div>
@@ -19,7 +17,5 @@
       <input [(ngModel)]="selectedProducer.name" placeholder="name">
     </label>
   </div>
- 
-</div>
 </div>
 </div>

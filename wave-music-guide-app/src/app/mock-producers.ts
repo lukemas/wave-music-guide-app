@@ -2,11 +2,11 @@ import { Producer } from './producer';
 
 export const PRODUCERS: Producer[] = [
   { id: 1, name: 'skeler', imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
-  { id: 2, name: 'juche', imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
-  { id: 3, name: 'iSorin', imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
-  { id: 4, name: 'enjoii', imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' }, 
-  { id: 5, name: 'Hermei' , imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
-  { id: 6, name: 'ÆSTRAL' , imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
+  { id: 2, name: 'juche', imageUrl: 'https://i1.sndcdn.com/avatars-000476814372-8psg49-t500x500.jpg' },
+  { id: 3, name: 'iSorin', imageUrl: 'https://i1.sndcdn.com/avatars-000401659920-jiedei-t500x500.jpg' },
+  { id: 4, name: 'enjoii', imageUrl: 'https://i1.sndcdn.com/avatars-000502929072-taiyrc-t500x500.jpg' }, 
+  { id: 5, name: 'Hermei' , imageUrl: 'https://i1.sndcdn.com/avatars-000449237226-wl712s-t500x500.jpg' },
+  { id: 6, name: 'ÆSTRAL' , imageUrl: 'https://i1.sndcdn.com/avatars-000498499533-7ns3mv-t500x500.jpg' },
   { id: 7, name: 'Øfdream' , imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
   { id: 8, name: 'Nevaeh' , imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
   { id: 9, name: 'UNNHOLY' , imageUrl: 'https://i1.sndcdn.com/avatars-000318984669-zxc20j-t500x500.jpg' },
