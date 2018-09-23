@@ -1,0 +1,9 @@
+<div *ngIf="producer">
+  <h2>{{producer.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{producer.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="producer.name" placeholder="name">
+    </label>
+  </div>
+</div>
