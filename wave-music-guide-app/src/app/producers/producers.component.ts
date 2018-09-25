@@ -18,10 +18,6 @@ export class ProducersComponent implements OnInit {
     this.getProducers();
   }
 
-  onSelect(producer: Producer): void {
-    this.selectedProducer = producer;
-  }
-
   getProducers(): void {
    this.producerService.getProducers()
    .subscribe(producers => this.producers = producers);

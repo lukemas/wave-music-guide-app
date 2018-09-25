@@ -5,10 +5,10 @@
 <ul class="producers">
   <li *ngFor="let producer of producers"
     [class.selected]="producer === selectedProducer"
-    (click)="onSelect(producer)">
+    (click)="onSelect(producer)"
+    routerLink="/detail/{{producer.id}}">
   <img class="producer-image" src={{producer.imageUrl}}/><caption class="text-center producer-name">{{producer.name}} </caption>
   </li>
 </ul>
 </div>
-<app-producer-details [producer]="selectedProducer"></app-producer-details>
 </div>
